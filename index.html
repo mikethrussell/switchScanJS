@@ -1,10 +1,14 @@
+<!--EXAMPLE PAGE-->
+
 <!DOCTYPE html>
 <html>
 
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.1/foundation.min.css" type="text/css" />
     <link rel="stylesheet" href="css/css.css" type="text/css" />
+    <!--JQuery required-->
     <script src='//code.jquery.com/jquery-2.2.3.min.js' type='text/javascript'></script>
+    <!--shorcut.js required-->
     <script src='//www.openjs.com/scripts/events/keyboard_shortcuts/shortcut.js' type='text/javascript'></script>
     <script type="text/javascript" src="switchScan.js"></script>
 </head>
@@ -27,8 +31,12 @@
     </div>
     <div class="row">
         <div class="columns">
+            <!-- id="autoscan" required -->
             <input type="checkbox" id="autoscan" /> autoscan
-            <input type="range" min="200" max="4000" id="timer" value="" /><span id="timerN"></span> seconds
+            <!-- id="timer" required -->
+            <input type="range" min="200" max="4000" id="timer" value="" />
+            <!-- id="timerN" required-->
+            <span id="timerN"></span> seconds
         </div>
 
 
