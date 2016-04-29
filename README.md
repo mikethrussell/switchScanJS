@@ -2,7 +2,7 @@
 Javascript to enable switch scanning on any webpage
 
 
-Useage: add "scan" class to any div containing an 'a' element that you needs to be scan accessible
+Useage: add "scan" class to any div containing an 'a' element that you wish to be scan accessible
 
 Two switch scanning: f8 scans / f7 selects
 
